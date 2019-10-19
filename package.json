@@ -18,6 +18,8 @@
   "homepage": "https://github.com/anaB2404/blogNoticias-web#readme",
   "dependencies": {
     "jquery": "^3.4.1",
-    "materialize": "^1.0.0"
+    "material-icons": "^0.3.1",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0-rc.2"
   }
 }
