@@ -1,0 +1,23 @@
+{
+  "name": "blognoticias-web",
+  "version": "1.0.0",
+  "description": "Um blog de noticias sobre artistas e musicas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaB2404/blogNoticias-web.git"
+  },
+  "author": "Ana Beatriz Rodrigues Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaB2404/blogNoticias-web/issues"
+  },
+  "homepage": "https://github.com/anaB2404/blogNoticias-web#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "materialize": "^1.0.0"
+  }
+}
