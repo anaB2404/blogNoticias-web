@@ -8,18 +8,21 @@
     </title>
     <link rel="stylesheet" href="node_modules/material-icons/iconfont/material-icons.css">
     <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="icon" href="assets/icons/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/login.css">
   </head>
   <body class="grey darken-4">
     <nav class="purple darken-1 navbar-fixed">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo"><img src="imagens/nananews_white.png"></a>
+          <a href="#" class="brand-logo"><img src="assets/icons/nananews_white.png"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li class="link-color"><a href="#">Novidades</a></li>
-            <li class="link-color"><a href="#">Escritores</a></li>
-            <li class="link-color"><a href="#">Notícias</a></li>
-            <li><a href="#" class="btn grey darken-4 waves-effect waves-purple">Login</a></li>
+            <li class="link-color"><a href="#" class="btn-flat btn-default-text">Novidades</a></li>
+            <li class="link-color"><a href="#" class="btn-flat btn-default-text">Escritores</a></li>
+            <li class="link-color"><a href="#" class="btn-flat btn-default-text">Notícias</a></li>
+            <li class="link-btn"><a href="#login" class="btn teal modal-trigger grey darken-4 waves-effect waves-purple btn-default">Login</a></li>
           </ul>
           <ul class="sidenav purple darken-1" id="mobile-demo">
             <li class="link-color-mobile"><a href="#">Novidades</a></li>
@@ -30,9 +33,42 @@
         </div>
       </nav>
 
+      <div id="login" class="modal purple darken-1">
+        <h5 class="modal-close">&#10005;</h5>
+        <div class="modal-content center">
+          <h4 class="title">Login Form</h4>
+          <br>
+          <form action="#" method="">
+            <div class="input-field">
+              <i class="material-icons prefix icon-color">person</i>
+              <input type="text" id="name">
+              <label for="name">Username</label>
+            </div>
+            <br>
+
+            <div class="input-field">
+              <i class="material-icons prefix icon-color">lock</i>
+              <input type="password" id="pass">
+              <label for="pass">Password</label>
+            </div>
+            <br>
+
+            <div class="left" style="margin-left:20px;">
+              <input type="checkbox" id="check">
+              <label for="check" class="link-modal"><a href="#">Remember Me</a> our</label>
+              <label for="check" class="link-modal"><a href="#"> Cadastre-se</a></label>
+            </div>
+            <br>
+
+            <input type="submit" value="Login" class="btn btn-large grey darken-4 btn-default">
+          </form>
+        </div>
+      </div>
+
 
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.js"></script>
-    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
   </body>
 </html>

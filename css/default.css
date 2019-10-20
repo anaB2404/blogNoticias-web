@@ -1,0 +1,32 @@
+.btn-flat{
+    margin-right: -10px !important;
+}
+
+.btn-default{
+    text-transform: inherit;
+    transition: 0.2s;
+}
+
+.btn-default:hover{
+    transform: translateY(-2px);
+}
+
+.btn-default-text{
+    text-transform: inherit;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.btn-default-text:hover{
+    background-color: transparent;
+    transform: translateY(-2px);
+}
+
+.title{
+    color: #212121;
+    font-weight: bolder;
+}
+
+.icon-color{
+  color: #212121;
+}

@@ -1,10 +1,24 @@
 .link-color a{
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .link-color a:hover{
   background-color: transparent;
   color: #212121;
+}
+
+.link-btn{
+  font-size: 15px;
+}
+
+.link-modal a{
+  color: #212121;
+}
+
+.link-modal a:hover{
+  color: #fff;
+  font-size: 15px;
+  transition: 0.2s;
 }
 
 .sidenav .link-color-mobile a{
