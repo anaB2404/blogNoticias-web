@@ -1,0 +1,17 @@
+.link-color a{
+  font-size: 19px;
+}
+
+.link-color a:hover{
+  background-color: transparent;
+  color: #212121;
+}
+
+.sidenav .link-color-mobile a{
+  color: #fff;
+  font-size: 19px;
+}
+
+.sidenav .link-color-mobile a:hover{
+  color: #212121;
+}
